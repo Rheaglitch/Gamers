@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game moles</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <img src="moles.jpg" alt="img" width="250px">
+        <h2>Wack A Moles </h2>
+        <input type="text" name="" id="inpt-username" placeholder="input your name here!"> <br>
+        <button id="btn-start">Start Game</button> <br>
+        <button id="btn-scoreBoard">Scoreboard</button>
+    </div>
+    <div id="scoreboard">
+        <table id="scoreTable">
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Score</th>
+            </tr>
+        </table>
+    </div>
+    <div id="game">
+        <p>Score : <span id="score">0</span></p>
+        <p>Timer : <span id="second">0</span></p>
+        <p>Heart : <span id="heart">5</span></p>
+        <p>Username : <span id="username">-</span></p>
+        <canvas id="canvas"></canvas>
+    </div>
+    <script src="index.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
